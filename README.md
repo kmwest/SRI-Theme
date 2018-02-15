@@ -18,7 +18,7 @@ library(SRI)
 
 ### Shortcut
 
-Add +sribasic to your ggplot to add a quick basic format. This is a combination of theme_sri, and scale fill and color default set to "sricolors""
+Add +sribasic to your ggplot to add a quick basic format. This applies theme_sri and sets scale color and fill to "sricolors"
 
 ### See all palettes
 
