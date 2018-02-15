@@ -7,7 +7,7 @@
 #' @examples
 #' Theme_sri()
 
-Theme_SRI <- function(base_size=11, font="Helvetica"){
+Theme_SRI <- function(base_size=12, font="Helvetica"){
   titletxt <- ggplot2::element_text(size=base_size-2, colour = "#404040", hjust = 0.5)
   subtitletxt <- ggplot2::element_text(size=base_size-3, colour = "#404040", hjust = 0.5)
   txt2 <- ggplot2::element_text(size=base_size-3, colour = "#404040")

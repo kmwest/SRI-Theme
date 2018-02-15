@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: person("Kristen", "West", email = "kmwest17@gmail.com",
                   role = c("aut", "cre"))
 Maintainer: Kristen West <kristen.west@utah.edu>
-Description: An assortment of custom themes and colors for the most excellent research team at SRI
+Description: Test. An assortment of custom themes and colors for the most excellent research team at SRI
 Depends: R (>= 3.2.3)
 Imports: ggplot2, ggthemes, RColorBrewer, colorspace
 License: MIT + file LICENSE
