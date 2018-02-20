@@ -11,10 +11,10 @@ sri_palettes <- list(
   sriblues = c("#032F3A","#13424F","#255664","#3A6B78","#50808C","#69959F","#83AAB2","#A0C0C3","#BDD6D4","#DDECE4"),
   sricolors = c("#034d78", "#7c332a","#2a7c4d","#442c7c","#7c4c2c"),
   sricolors2 = c("#034d78", "#7c332a","#576160","#7c2c3c","#442c7c"),
-  dcfscolors - c("#5bd45b", "#c92935", "#e5623b", "#06a2b2", "#f0cc59", "#0723B1")
+  dcfscolors = c("#5bd45b", "#c92935", "#e5623b", "#06a2b2", "#f0cc59", "#0723B1")
 )
 
-#DCFScolors palette. Palette is applied in alphabetical order (eastern, Northern, etc.). Statewide is purple so that is the last one
+#dcfscolors palette. Palette is applied in alphabetical order (eastern, Northern, etc.). Statewide is purple so that is the last one
 
 #' An SRI palette generator
 #'
