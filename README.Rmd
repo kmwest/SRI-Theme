@@ -58,7 +58,7 @@ sri_palette("srisunset")
 
 ###srioranges
 
-```{r, sriblues}
+```{r, srioranges}
 sri_palette("srioranges")
 ```
 
@@ -90,6 +90,7 @@ sri_palette("dcfscolors")
 ##Example
 
 ```{r, example_plot, fig.height=3}
+library("ggplot2")
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point(size = 3) + theme_sri() + scale_color_manual(values=sri_palette("sricool"))
 ```
