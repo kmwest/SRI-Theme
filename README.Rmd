@@ -46,44 +46,44 @@ names(sri_palettes)
 
 ###sricool
 
-```{r, sricool}
+```{r, sricool, fig.height=2}
 sri_palette("sricool")
 ```
 
 ###srisunset
 
-```{r, srisunset}
+```{r, srisunset, fig.height=2}
 sri_palette("srisunset")
 ```
 
 ###srioranges
 
-```{r, srioranges}
+```{r, srioranges, fig.height=2}
 sri_palette("srioranges")
 ```
 
 ###sriblues
 
-```{r, sriblues}
+```{r, sriblues, fig.height=2}
 sri_palette("sriblues")
 ```
 
 ###sricolors
 
-```{r, sricolors}
+```{r, sricolors, fig.height=2}
 sri_palette("sricolors")
 ```
 
 
 ###sricolors2
 
-```{r, sricolors2}
+```{r, sricolors2, fig.height=2}
 sri_palette("sricolors2")
 ```
 
 ###dcfscolors
 
-```{r, dcfscolors}
+```{r, dcfscolors, fig.height=2}
 sri_palette("dcfscolors")
 ```
 
