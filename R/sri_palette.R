@@ -41,9 +41,9 @@ sri_palettes <- list(
 #'scale_color_manual(values = sri_palette("sricolors"))
 #'
 #'
-#' # If you need more colours than normally found in a palette, you
+#' # If you need more colors than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
-#' # colours
+#' # colors
 #' pal <- sri_palette(12, name = "sricool", type = "continuous")
 #' image(volcano, col = pal)
 

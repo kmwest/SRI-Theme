@@ -4,7 +4,7 @@
 \alias{theme_sri}
 \title{SRI theme for plots}
 \usage{
-theme_sri(base_size = 11, font = "Helvetica")
+theme_sri(base_size = 12, font = "Helvetica")
 }
 \arguments{
 \item{font}{Helvetica}

@@ -1,0 +1,105 @@
+---
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figure/",
+  fig.height = 1
+)
+```
+
+
+# SRI Package (Themes and Color Palettes)
+
+
+##How to Install
+
+```r
+devtools::install_github("kmwest/SRI")
+```
+
+
+##Usage
+
+```{r}
+library(SRI)
+
+# See palette options
+names(sri_palettes)
+```
+
+## Available functions
+
+* theme_sri 
+* sri_palette 
+
+
+##Palettes
+
+###sricool
+
+```{r, sricool}
+sri_palette("sricool")
+```
+
+###srisunset
+
+```{r, srisunset}
+sri_palette("srisunset")
+```
+
+###srioranges
+
+```{r, sriblues}
+sri_palette("srioranges")
+```
+
+###sriblues
+
+```{r, sriblues}
+sri_palette("sriblues")
+```
+
+###sricolors
+
+```{r, sricolors}
+sri_palette("sricolors")
+```
+
+
+###sricolors2
+
+```{r, sricolors2}
+sri_palette("sricolors2")
+```
+
+###dcfscolors
+
+```{r, dcfscolors}
+sri_palette("dcfscolors")
+```
+
+##Example
+
+```{r, example_plot, fig.height=3}
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point(size = 3) + theme_sri() + scale_color_manual(values=sri_palette("sricool"))
+```
+
+## Quick format 
+
+Add +sribasic to your ggplot to apply a quick set format. This applies theme_sri and sets scale color and fill to "sricolors". For example:
+
+```{r, sribasic_plot, fig.height=3}
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point(size = 3) + sribasic
+  
+```

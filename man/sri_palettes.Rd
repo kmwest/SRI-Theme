@@ -4,7 +4,7 @@
 \name{sri_palettes}
 \alias{sri_palettes}
 \title{list of custom SRI color palettes}
-\format{An object of class \code{list} of length 6.}
+\format{An object of class \code{list} of length 7.}
 \usage{
 sri_palettes
 }
