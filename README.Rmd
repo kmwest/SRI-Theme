@@ -97,7 +97,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 
 ## Quick format 
 
-Add +sribasic to your ggplot to apply a quick set format. This applies theme_sri and sets scale color and fill to "sricolors". For example:
+Add +sribasic to your ggplot to apply a quick format. This applies theme_sri and sets scale color and fill to "sricolors". For example:
 
 ```{r, sribasic_plot, fig.height=3}
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
