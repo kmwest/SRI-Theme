@@ -83,6 +83,8 @@ sri_palette("sricolors2")
 
 ###dcfscolors
 
+This palette is based on the the colors DCFS specifies for regions. The palette is applied in alphabetical order; Eastern (green), Northern (red), Salt Lake Valley (orange), Southwest (blue), Western (etc.), and Statewide (purple). 
+
 ```{r, dcfscolors, fig.height=2}
 sri_palette("dcfscolors")
 ```
