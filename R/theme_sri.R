@@ -34,18 +34,6 @@ theme_sri <- Theme_SRI
 
 
 
-#' SRI basic theme and colors
-#'
-#' Apply basic theme and colors to plots. This is a combination of theme_sri and sets the default color palette to "sricolors".
-#' Use for simple plots only with 1-5 qualitative colors
-#' @export
-#' @examples
-#'ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
-#'geom_point(size = 3) +
-#'sribasic
-
-
-sribasic <- list(theme_sri() , ggplot2::scale_fill_manual(values=sri_palette("sricolors")), ggplot2::scale_color_manual(values=sri_palette("sricolors")))
 
 
 
