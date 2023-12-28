@@ -6,7 +6,7 @@ How to Install
 --------------
 
 ``` r
-devtools::install_github("kmwest/SRI")
+devtools::install_github("kmwest/SRI-Theme")
 ```
 
 Usage
